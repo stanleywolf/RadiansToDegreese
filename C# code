@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _10.radiansToDegreese
+{
+    class radiansToDegreese
+    {
+        static void Main(string[] args)
+        {
+            var rad = double.Parse(Console.ReadLine());
+            var cel = rad * 180/ Math.PI;
+            Console.WriteLine(Math.Round(cel));
+        }
+    }
+}
